@@ -1,0 +1,36 @@
+package com.example.practica3_alejandro_raymond;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class MainActivity extends Activity {
+   private LinearLayout LinearLayout1; 
+   private TextView Hello;
+   private EditText Introduce;
+   private Button Aceptar;
+   private TextView Salida;
+   
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        LinearLayout1 = (LinearLayout)findViewById(R.id.LinearLayout1);
+        Hello  = (TextView)findViewById(R.id.Hello); 
+       Introduce = (EditText)findViewById(R.id.Introduce);
+        Aceptar	= (Button)findViewById(R.id.Aceptar);
+        Salida = (TextView)findViewById(R.id.Salida);
+    }
+
+
+    @Override
+public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+    
+}

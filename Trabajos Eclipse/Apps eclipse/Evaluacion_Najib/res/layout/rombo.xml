@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/sol"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <EditText
+        android:id="@+id/inlogladoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="@string/inlogaltura" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/inlogaltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inlogladoc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="@string/inloglado" />
+
+    <Button
+        android:id="@+id/btncalculaar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inlogaltura"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="@string/incalaltura" />
+
+    <TextView
+        android:id="@+id/tvfinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/imgsol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvfinal"
+        android:layout_below="@+id/tvfinal"
+        android:layout_marginTop="88dp" />
+
+</RelativeLayout>

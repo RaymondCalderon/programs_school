@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.evaluacion_najib"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.evaluacion_najib.Principal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+            <activity
+            android:name="com.example.evaluacion_najib.Elegir"
+            android:label="@string/app_Elegir" >
+        </activity>
+        <activity
+            android:name="com.example.evaluacion_najib.Area"
+            android:label="@string/app_Area" >
+        </activity>
+           <activity
+            android:name="com.example.evaluacion_najib.Volumen"
+            android:label="@string/app_Volumen" >
+        </activity>
+         <activity
+            android:name="com.example.evaluacion_najib.Trapecio"
+            android:label="@string/app_Trapecio" >
+        </activity>
+         <activity
+            android:name="com.example.evaluacion_najib.Rombo"
+            android:label="@string/app_Rombo" >
+        </activity>
+         <activity
+            android:name="com.example.evaluacion_najib.Heptagono"
+            android:label="@string/app_Heptagono" >
+        </activity>
+         <activity
+            android:name="com.example.evaluacion_najib.Esfera"
+            android:label="@string/app_Esfera" >
+        </activity>
+   <activity
+            android:name="com.example.evaluacion_najib.Cilindro"
+            android:label="@string/app_Cilindro" >
+        </activity>
+   <activity
+            android:name="com.example.evaluacion_najib.Cubo"
+            android:label="@string/app_Cubo" >
+     </activity>
+            
+            
+            <activity
+            android:name="com.example.evaluacion_najib.Practica3"
+            android:label="@string/app_Practica3" >
+        </activity>
+       
+   
+  
+     
+   
+   
+   
+     </application>
+
+</manifest>

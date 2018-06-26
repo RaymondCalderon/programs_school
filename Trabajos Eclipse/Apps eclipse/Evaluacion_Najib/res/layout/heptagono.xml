@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/niv"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/inper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="@string/inper" >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/inapo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inper"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="@string/inapo" >
+
+        <requestFocus />
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btncalhep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inapo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="@string/btncalhep" />
+
+    <TextView
+        android:id="@+id/tvhep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/imghep"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/tvhep"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="77dp" />
+
+</RelativeLayout>

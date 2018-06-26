@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fox English</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pbtn2">Módulo 2: Java</string>
+    <string name="pbtn3">Módulo 3: Android</string>
+    <string name="pbtn4">Módulo 4: S.O.</string>
+    <string name="pbtn5">Módulo 5: E-learning</string>
+    <string name="btnExit">Exit</string>
+    <string name="btnNext">Next</string>
+    <string name="btnGoBack">Go Back</string>
+    <string name="pbtn1">Módulo 1: C++</string>
+    <string />
+    <string />
+    <string />
+    <string />
+</resources>

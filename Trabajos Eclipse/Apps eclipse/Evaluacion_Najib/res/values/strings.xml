@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Evaluacion_Najib</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Password</string>
+    <string name="btnintro">Entrar</string>
+    <string name="app_Elegir">Elegir</string>
+    <string name="rbarea">Calcular Area de 3 Figuras</string>
+    <string name="rbvolumn">Calcular Volumen de 3 Figuras</string>
+    <string name="app_Area">Area</string>
+    <string name="rbTrapecio">Trapecio</string>
+    <string name="rbRombo">Rombo</string>
+    <string name="rbheptagono">Heptagono</string>
+    <string name="app_Volumen">Volumen</string>
+    <string name="rbesfera">Esfera</string>
+    <string name="rbcilindro">Cilindro</string>
+    <string name="rbcubo">Cubo</string>
+    <string name="app_Trapecio">Trapecio</string>
+    <string name="app_Rombo">Rombo</string>
+    <string name="app_Heptagono">Heptagono</string>
+    <string name="app_Cubo">Cubo</string>
+    <string name="app_Cilindro">Cilindro</string>
+    <string name="app_Esfera">Esfera</string>
+    <string name="inmay">Ingrese la Base Mayor</string>
+    <string name="inmen">Ingrese la Base Menor</string>
+    <string name="inaltura">Ingrese la Altura</string>
+    <string name="btncalcula">Calcular Area</string>
+    <string name="incalaltura">Calcular Area</string>
+    <string name="inloglado">Ingresar Longitud de un lado</string>
+    <string name="inlogaltura">Ingresar la longitud de Altura</string>
+    <string name="inapo">Ingrese el Apotema</string>
+    <string name="inper">Ingrese el Perimetro</string>
+    <string name="btncalhep">Calcula Area</string>
+    <string name="inradio">Ingrese el Radio</string>
+    <string name="btnes">Calcular Volumen</string>
+    <string name="inh">Ingresa la Altura</string>
+    <string name="inr">Ingresa el Radio</string>
+    <string name="btnvol">Calcula el Volumen</string>
+    <string name="inarista">Ingrese la Arista</string>
+    <string name="btncalvolfin">Calcular Volumen</string>
+    <string name="app_Practica3">Practica3</string>
+    <string name="rbprac3">Ir a Practica 3 </string>
+
+</resources>

@@ -1,0 +1,30 @@
+package com.example.foxenglish;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+  
+ public class Resultados extends Activity {
+	 private Button rquit;
+	 
+	 
+	 
+	 
+	 protected void onCreate(Bundle savedInstanceState) {
+			super.onCreate(savedInstanceState);
+			setContentView(R.layout.resultados);
+			rquit = (Button)findViewById(R.id.rbtn1);
+			rquit.setOnClickListener(new View.OnClickListener() {
+
+				@Override
+				public void onClick(View arg0) {
+					// TODO Auto-generated method stub
+					Intent principal= new Intent (Resultados.this, Principal.class);
+					startActivity(principal);
+				} });
+{
+
+} } }

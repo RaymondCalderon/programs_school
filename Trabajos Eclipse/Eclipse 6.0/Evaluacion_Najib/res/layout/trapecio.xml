@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/navid"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/inbaseM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="@string/inmay" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/inBasemen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/inbaseM"
+        android:layout_below="@+id/inbaseM"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="@string/inmen" />
+
+    <EditText
+        android:id="@+id/inaltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/inBasemen"
+        android:layout_below="@+id/inBasemen"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="@string/inaltura" />
+
+    <Button
+        android:id="@+id/calarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inaltura"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/btncalcula" />
+
+    <TextView
+        android:id="@+id/tvres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calarea"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+
+    <ImageView
+        android:id="@+id/imgtra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvres"
+        android:layout_below="@+id/tvres"
+        android:layout_marginTop="67dp" />
+
+</RelativeLayout>

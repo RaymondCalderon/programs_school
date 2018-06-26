@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/net"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Principal" >
+
+    <Button
+        android:id="@+id/pbtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ptv1"
+        android:text="@string/pbtn1"
+        android:textColor="@color/texto_ama" />
+
+    <Button
+        android:id="@+id/pbtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pbtn1"
+        android:text="@string/pbtn2"
+        android:textColor="@color/texto_ama" />
+
+    <Button
+        android:id="@+id/pbtn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pbtn2"
+        android:text="@string/pbtn3"
+        android:textColor="@color/texto_ama" />
+
+    <Button
+        android:id="@+id/pbtn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pbtn3"
+        android:text="@string/pbtn4"
+        android:textColor="@color/texto_ama" />
+
+    <Button
+        android:id="@+id/pbtn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pbtn4"
+        android:text="@string/pbtn5"
+        android:textColor="@color/texto_ama" />
+
+    <TextView
+        android:id="@+id/ptv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/ptv1"
+        android:textAlignment="textEnd"
+        android:textColor="@color/texto_ama" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pbtn5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/ptv2"
+        android:textColor="@color/texto_ama" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="@string/ptv3"
+        android:textColor="@color/texto_ama" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/ptv4"
+        android:textColor="@color/texto_ama" />
+
+</RelativeLayout>

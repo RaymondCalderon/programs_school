@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Primer ejemplo con js</title>
+        <style>
+            body{
+                transition: all 5s;
+            }
+        </style>
+            <script>
+
+                window.addEventListener("load",comparar_numero);
+                function comparar_numero(){
+                    var pagina= {
+                        numero_mayor:"no se sabe",
+                        color_fondo:"rojo",
+                        mostrar_numero: function(){
+                            alert(this.numero_mayor);
+                        };
+                        mostrar_color:function(){
+                            alert(this.color_fondo);
+                        };
+                    
+                    }
+                    var button = document.getElementById("calcular");
+                    button.addEventListener("click",function(){
+                       
+                        var numero1=parseInt(document.getElementById("n1").value);
+                        var numero2=parseInt(document.getElementById("n2").value);
+                        var numero3=parseInt(document.getElementById("n3").value);
+                        
+                        var resultado=document.getElementById("resultado");
+                        var mayor;
+                        if((numero1>numero2)&&(numero1>numero3))
+                        {
+                         mayor="el numero 1 es el mayor";
+                        }
+                        if((numero2>numero1)&&(numero2>numero3))
+                        {
+                            mayor="el numero 2 es el mayor";
+                        }
+                        if((numero3>numero1)&&(numero3>numero2))
+                        {
+                            mayor="el numero 3 es el mayor";
+                        }
+                        pagina.numero_mayor = mayor;
+                        pagina.color_fondo = listaColores.Value;
+                        resultado.innerHTML = mayor;
+                        <!--pagina.mostrar_numero.call;
+                        pagina.mostrar_color.call;
+                        console.log(mayor);-->
+                    });
+                    var listaColores = document.getElementById("ListaColores");
+                     document.body.style.backgroundColor = ListaColores.value
+                    ListaColores.addEventListener("change", function(){
+                       document.body.style.backgroundColor = ListaColores.value
+                    });
+                }
+                    
+            </script> 
+    </head>
+         <body>
+            <div>
+                <label for""=>numero1</label>
+                <input type="number"id="n1"value="9">
+            </div>
+            <div>
+                    <label for""=>numero2</label>
+                    <input type="number"id="n2"value="5">
+                </div>
+                <div>
+                        <label for""=>numero3</label>
+                        <input type="number"id="n3"value="2">
+                    </div>
+             <div>
+             <p id="resultado">Resultado</p>
+             
+             </div>
+                    <button id="calcular">Dame el numero mayor</button>
+             
+             
+             <div>
+             <select id="ListaColores">
+                 <option value="#de1f1f">Rojo</option>
+                 <option value="blue">Azul</option>
+                 <option value="#41d01e">Verde</option>
+                 </select>
+             </div>
+             
+         </body>
+</html>

@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Verdana;
+}
+
+#header section {
+    width: 49.6%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#right {
+    text-align: center;
+}
+
+#left a {
+    color: #474747;
+    font-size: 12px;
+    margin-right: 10px;
+    font-family: Verdana;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#middle {
+    background: url(../imagenes/bg3.jpg);
+}
+
+section.center {
+    margin: 0 auto;
+    width: 66%;
+}
+
+section.center p {
+    color: #fff;
+    line-height: 1.8;
+    font-size:
+}
+
+section.center section {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section.center img {
+    width: 75%;
+}
+
+section.full {
+    background: rgba(93, 19, 19, 0.6);
+    padding: 10px;
+    margin-top: 30px;
+    border-bottom: 5px solid #b22222;
+}
+
+section.full h2 {
+    color: #fff;
+    font-size: 20px;
+
+}
+
+section.full h2,
+section.fullbutton {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+button {
+    border: 0;
+    background: rgba(93, 19, 19, 0.5);
+    padding: 7px 12px;
+    color: #fff;
+}
+
+.top {
+    padding-top: 40px;
+}
+
+h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 28px;
+    color: #fff;
+}
+
+h1 strong {
+    font-weight: bold;
+}

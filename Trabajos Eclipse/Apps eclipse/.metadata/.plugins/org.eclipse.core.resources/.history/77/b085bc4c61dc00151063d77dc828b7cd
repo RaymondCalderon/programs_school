@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Fox English</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pbtn1">Módulo 1: C++</string>
+    <string name="pbtn2">Módulo 2: Java</string>
+    <string name="pbtn3">Módulo 3: Android</string>
+    <string name="pbtn4">Módulo 4: S.O.</string>
+    <string name="pbtn5">Módulo 5: E-learning</string>
+    <string name="btnExit">Exit</string>
+    <string name="btnNext">Next</string>
+    <string name="btnGoBack">Go Back</string>
+    <string name="ptv1">Selecciona el módulo de Inglés Técnico</string>
+    <string name="ptv2">Todos los derechos Reservados</string>
+    <string name="ptv3">Autor: Raymond Calderon</string>
+    <string name="ptv4">CBTis 109</string>
+    <string name="a1tv">Relacione cada termino con su significado</string>
+    <string name="a2tv">Relacione la figura con su correspondiente significado</string>
+    <string name="a3tv">Relacione  el  siguiente termino con su respectivo significado</string>
+    <string name="Format">Format</string>
+    <string name="Formato">Formato</string>
+    <string name="Reporte">Reporte</string>
+    <string name="Report">Report</string>
+    <string name="Battery">Battery</string>
+    <string name="Batería">Batería</string>
+    <string name="Computer">Computer</string>
+    <string name="TV">TV</string>
+    <string name="Kinescope">Kinescope</string>
+    <string name="Timer">Timer</string>
+    <string name="Reloj">Reloj</string>
+</resources>

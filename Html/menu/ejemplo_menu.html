@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Flotante</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script>
+        var inter = "off";
+    $(document).ready(function(){
+        $(".menu-elemento").on("mouseenter",function(){
+            $(this).animate({top:0},{duration:2000, queue:false,easing:"easeInElastic"});
+        });
+        $(".menu-elemento").on("mouseleave",function(){
+            $(this).animate({top:-160},{duration:2000, queue:false,easing:"easeOutBounce"});
+        });
+        $("#login").on("click",function(evento){
+            evento.preventDefault();
+            var usuario = $("#user").val();
+            var pass = $("#pass").val();
+            
+            if(usuario==="tugfa"&&pass==="entanga")
+            {
+                $(".field").hide();
+                $("#bienvenida").show();
+            }
+            else
+            {
+               $("#user,#pass").css("background-color","red");
+                
+            }
+        });
+        $("#logon").on("click",function(){
+            var mov;
+            if(inter=="off"){
+                mov="-20px";
+                inter="on";
+                $("#fondo").fadeIn();
+            }
+            else{
+                mov="-150px";
+                inter="off";
+                $("#fondo").fadeOut();
+               }
+           $(this).animate({top:mov},{duration:3000,queue:false}) 
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <section id="menu-flotante">
+        <div class="menu-elemento" id="uno">
+            <img src="imagenes/if_house_in_fire_458254.png" alt="1">
+            <h1>Menú Uno</h1>
+        </div>
+        <div class="menu-elemento" id="dos">
+            <img src="imagenes/raiden.png" alt="2">
+            <h1>Menú Dos</h1>
+        </div>
+        <div class="menu-elemento" id="tres">
+            <img src="imagenes/if_p-94_877841.png" alt="3">
+            <h1>Menú Tres</h1>
+        </div>
+    </section>
+    <div id="logon">
+    <form>
+        <div class="field">
+            <label for="usuario">Usuario</label>
+            <input type="text" id="user">
+            <label for="contraseña">Contraseña</label>
+            <input type="password" id="pass">
+        </div>
+        <button id="login" class="field">Aceptar</button>
+        <h2 id="bienvenida">Bienvenido Usuario!!!!!</h2>
+    </form>
+        <h1>Login</h1>
+    </div>
+    <div id="fondo"></div>
+</body>
+</html>

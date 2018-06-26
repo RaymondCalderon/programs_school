@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.menu-elemento{
+    width: 150px;
+    padding: 5px;
+    background-color: gray;
+    text-align: center;
+    position: absolute;
+    top: -160px;
+}
+.menu-elemento img{
+    width: 100%;
+}
+.menu-elemento h1{
+    color:white;
+    font-family: fantasy;
+    margin: 0;
+}
+#dos{
+    left: 166px;
+}
+#tres{
+    left: 333px;
+}
+form{
+    margin-top: 30px;
+}
+label{
+    display: block;
+}
+#bienvenida{
+    display: none;
+}
+#logon{
+    position: absolute;
+    right: 0;
+    top: -150px;
+    z-index: 2;
+}
+#fondo{
+    background: gray;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.8;
+    display: none;
+}

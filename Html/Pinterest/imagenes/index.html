@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pinterest</title>
+    <style>
+        .main {
+            border-radius: 5px;
+        }
+        
+        .boton {
+            width: 20px;
+            height: 20px;
+            background: #ebebeb;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+        .rojo {
+            background: #bd081c;
+            width: 85px;
+        }
+        
+        .icono {
+            width: 20px;
+            height: 20px;
+            background: url(sprite.png);
+        }
+        
+        .rojo div,
+        .rojo span {
+            display: inline-block;
+            vertical-align: top;
+        }
+        
+        .rojo span {
+            color: #FFF;
+            font-weight: bold;
+        }
+        
+        .enviar {
+            background-position: -35px -368px;
+        }
+        
+        .corazon {
+            background-position: -162px -271px;
+        }
+        
+        .pinblanco {
+            background-position: -245px -322px;
+        }
+        
+        .pin {
+             position: relative;   
+        }
+        
+        .boton {
+             position: absolute;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <section class="pin">
+        <div class="boton">
+            <div class="icono enviar"></div>
+        </div>
+
+        <div class="boton">
+            <div class="icono corazon"></div>
+        </div>
+
+        <div class="boton rojo">
+            <div class="icono pinblanco"></div>
+            <span>Guardar</span>
+        </div>
+
+        <img src="imagen.jpg" class="main">
+    </section>
+
+
+</body>
+
+</html>

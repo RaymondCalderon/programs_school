@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fn"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/inradio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="@string/inradio" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/calef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inradio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="@string/btnes" />
+
+    <TextView
+        android:id="@+id/tvesf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calef"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp" />
+
+    <ImageView
+        android:id="@+id/imgesfera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvesf"
+        android:layout_below="@+id/tvesf"
+        android:layout_marginTop="90dp" />
+
+</RelativeLayout>

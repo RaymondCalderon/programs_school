@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lun"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/incubo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="44dp"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="@string/inarista" />
+
+    <Button
+        android:id="@+id/btncubo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/incubo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="@string/btncalvolfin" />
+
+    <TextView
+        android:id="@+id/tvvolf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btncubo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp" />
+
+    <ImageView
+        android:id="@+id/imglun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvvolf"
+        android:layout_below="@+id/tvvolf"
+        android:layout_marginTop="64dp" />
+
+</RelativeLayout>

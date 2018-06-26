@@ -1,0 +1,57 @@
+package com.example.practica3_alejandro_raymond;
+
+import android.os.Bundle;
+
+import android.app.Activity;
+import android.graphics.Color;
+import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+public class MainActivity extends Activity {
+   private LinearLayout LinearLayout1; 
+   private TextView Hello;
+   private EditText Introduce;
+   private Button Aceptar;
+   private TextView Salida;
+   private ImageView foto;
+   
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        LinearLayout1 = (LinearLayout)findViewById(R.id.LinearLayout1);
+        Hello  = (TextView)findViewById(R.id.Hello); 
+       Introduce = (EditText)findViewById(R.id.Introduce);
+        Aceptar	= (Button)findViewById(R.id.Aceptar);
+        Salida = (TextView)findViewById(R.id.Salida);
+        foto=(ImageView)findViewById(R.id.foto);
+        Aceptar.setOnClickListener(new View.OnClickListener()); {
+        	
+        	@Override 
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Hello.setText(Hello.getText().toString()+" soy "+
+				Introduce.getText().toString());
+			Hello.setBackgroundColor(Color.GREEN);
+			Salida.setTextColor(Color.YELLOW);
+			Introduce.setText(null);
+			Introduce.setTextColor(Color.RED);
+			foto.setImageResource(R.id.foto);
+        	
+        	}
+        
+        }
+    }
+
+    @Override
+public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+    
+}

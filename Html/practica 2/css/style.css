@@ -1,0 +1,139 @@
+body,section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#top{
+    text-decoration: none;
+    color:darkgray;
+    border-bottom: 1px solid rgba(0, 19, 19, 0.1);
+}
+#top a{
+    margin-right: 10px;
+    color:darkgray;
+    text-decoration: none;
+}
+.tleft{
+    font-size: 11px;
+    margin: 10px 0px 10px 150px;
+    display: inline-block;
+    width: 50%;
+}
+.tright{
+    margin-left: 9%;
+    display: inline-block;
+    text-align: right;
+    
+}
+#boton{
+    
+    margin-left: 180px;
+    display: inline-block;
+}
+.botin{
+    color:white;
+    width: 35px;
+    height: 35px;
+    border: 0px;
+    border-radius: 2px;
+    text-align: center;
+    vertical-align: center;
+    background-color: #d35652;
+    transform: rotateZ(180deg);
+}
+#logo {
+    margin-top: 5px;
+}
+.lleft{
+    width: 27%;
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+}
+.lright{
+    width: 55%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    font-size: 12px;
+}
+.lright a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: darkgray;
+}
+.home , .home a{
+    display: inline-block;
+    color: #07afe0;
+}
+#middle{
+    border-top: 1px solid rgba(0, 19, 19, 0.1);
+    padding-bottom: 0px 50% 0px 50%;
+    background-image: url(../imagenes/senor.jpg);
+    background-size: 100% 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    
+}
+.pre1{
+    width: 50%;
+    font-size: 29px;
+    padding-top: 97px;
+    margin: 0px auto 6px 245px;
+    
+}
+.pre2{
+    width: 55%;
+    font-size: 22px;
+    margin-top: 30px;
+    color: #c3c3c3;
+    margin: 30px 0px 6px 245px;
+}
+.features{
+    background-color: transparent;
+    color: #3decce;
+    height: 45px;
+    width: 190px;
+    border:  1px solid black;
+    margin: 30px 0px 60px 245px;
+    padding: 1px 20px;
+}
+#bottom{
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    color: gray;
+    margin-left: 5%;
+    
+}
+#bottom div{
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+#bottom i{
+    color: #07afe0;
+    margin: 0px;
+    padding: 0px;
+}
+.icon{
+    background-color: transparent;
+    width: 85px;
+    height: 85px;
+    border-radius: 1000px;
+    font-size: 35px;
+    border: 1px solid rgba(239, 229, 229, 0.57);
+}
+#read{
+    margin: 20px;
+    color: gray;
+    padding: 10px;
+    background-color: rgba(239, 229, 229, 0.2);
+    border: 1px solid rgba(239, 229, 229, 0.8);
+}
+.read p{
+    font-size: 12px;
+    margin: 0px;
+}

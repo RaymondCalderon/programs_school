@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Primer ejemplo con JS</title>
+        <style>
+        body
+            {
+                transition: all 5s;
+            }
+        </style>
+        <script> src="js/jquery-3.2.1.min.js" </script>
+        <script>
+            $(document).ready(function(){
+            $("#calcular").on("click",function(){
+            var numero1 = parseInt($("#n1").val());
+            var numero2 = parseInt($("#n2").val());
+            var numero3 = parseInt($("#n3").val());
+            var mayor;
+                if((numero1>numero2)&&(numero1>numero3))
+                        {
+                         mayor="el numero 1 es el mayor";
+                        }
+                        if((numero2>numero1)&&(numero2>numero3))
+                        {
+                            mayor="el numero 2 es el mayor";
+                        }
+                        if((numero3>numero1)&&(numero3>numero2))
+                        {
+                            mayor="el numero 3 es el mayor";
+                        }
+                $("#resultado").text(mayor);
+            });
+            });
+        </script>
+    </head>
+         <body>
+            <div>
+                <label for""=>numero1</label>
+                <input type="number"id="n1"value="9">
+            </div>
+            <div>
+                    <label for""=>numero2</label>
+                    <input type="number"id="n2"value="5">
+                </div>
+                <div>
+                        <label for""=>numero3</label>
+                        <input type="number"id="n3"value="2">
+                    </div>
+             <div>
+             <p id="resultado">Resultado</p>
+             
+             </div>
+                    <button id="calcular">Dame el numero mayor</button>
+             <div>
+             <select id="ListaColores">
+                 <option value="#de1f1f">Rojo</option>
+                 <option value="blue">Azul</option>
+                 <option value="#41d01e">Verde</option>
+                 </select>
+             </div>
+             
+         </body>
+</html>
