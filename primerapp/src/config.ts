@@ -1,0 +1,13 @@
+import { Injectable } from '@angular/core';
+
+@Injectable()
+export class Config {
+    static firebase = {
+		apiKey: "AIzaSyAYJ4x8xB_qPRxf0vAyq6vJ7J-LJfWAfJQ",
+    	authDomain: "propinas-plus-46532.firebaseapp.com",
+    	databaseURL: "https://propinas-plus-46532.firebaseio.com",
+    	projectId: "propinas-plus-46532",
+    	storageBucket: "propinas-plus-46532.appspot.com",
+    	messagingSenderId: "832646486750"
+	};
+}

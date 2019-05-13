@@ -1,0 +1,24 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title>
+        Configuración
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding>
+    <h5>Preferencias</h5>
+    <p>
+      Ingrese el % de Propina
+    </p>
+    <ion-list>
+      <ion-item>
+        <ion-label fixed>% de Propina</ion-label>
+        <ion-input type="number" value="0" [(ngModel)]="propina"></ion-input>
+      </ion-item>
+      <ion-item>
+        <button ion-button color="primary" item-end (click)="Guardar()">Guardar</button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+  
