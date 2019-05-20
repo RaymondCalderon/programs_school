@@ -4,13 +4,15 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { PostsComponent } from './posts/posts.component';
+import { PostComponent } from './posts/post/post.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    PostsComponent
+    PostsComponent,
+    PostComponent
   ],
   imports: [
     CommonModule

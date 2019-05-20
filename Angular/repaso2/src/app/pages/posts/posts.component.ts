@@ -27,11 +27,16 @@ export class PostsComponent implements OnInit {
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    this.dataService.getPosts()
-    .subscribe(posts => {
-      console.log(posts);
-      this.postsRemoto = posts;
-    });
+    this.postsRemoto = this.dataService.getPosts();
+    // this.dataService.getPosts()
+    // .subscribe(posts => {
+    //   console.log(posts);
+    //   this.postsRemoto = posts;
+    // });
+  }
+
+  onClickPadre(id){
+    console.log(id);
   }
 
 }

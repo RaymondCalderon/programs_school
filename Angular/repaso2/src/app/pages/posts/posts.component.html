@@ -1,4 +1,7 @@
-<section *ngFor="let post of postsRemoto">
+<!-- <section >
   <h2>{{ post.title }}</h2>
   <p>{{ post.body }}</p>
-</section>
+</section> -->
+<app-post *ngFor="let post of postsRemoto | async"[postRemote]="post"(clickPost)="onClickPadre($event)">
+
+</app-post>
