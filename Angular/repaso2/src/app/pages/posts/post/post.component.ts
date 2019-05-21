@@ -7,7 +7,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 })
 export class PostComponent implements OnInit {
 
-  @Input()postRemote;
+  @Input() postRemote;
   @Output() clickPost = new EventEmitter<number>();
 
   constructor() { }

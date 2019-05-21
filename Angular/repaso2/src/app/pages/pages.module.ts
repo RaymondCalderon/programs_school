@@ -5,6 +5,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { PostsComponent } from './posts/posts.component';
 import { PostComponent } from './posts/post/post.component';
+import { PhotosComponent } from './photos/photos.component';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { PostComponent } from './posts/post/post.component';
     AboutComponent,
     ContactComponent,
     PostsComponent,
-    PostComponent
+    PostComponent,
+    PhotosComponent
   ],
   imports: [
     CommonModule
