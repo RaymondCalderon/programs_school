@@ -35,7 +35,7 @@ export class PostsComponent implements OnInit {
     // });
   }
 
-  onClickPadre(id){
+  onClickPadre(id) {
     console.log(id);
   }
 

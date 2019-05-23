@@ -8,16 +8,19 @@ import { DataService } from '../../services/data.service';
 })
 export class PhotosComponent implements OnInit {
 
-  @Input() photoRemote;
+  photosRemote: any;
+  numOfCols: 3;
+  rowCount: 0;
 
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    this.dataService.getPhotos()
-    .subscribe(posts => {
-      console.log(posts);
-      this.photoRemote = posts;
-    });
+    this.photosRemote = this.dataService.getPhotos();
+    // this.dataService.getPhotos()
+    // .subscribe(posts => {
+    //   console.log(posts);
+    //   this.photoRemote = posts;
+    // });
   }
 
 }

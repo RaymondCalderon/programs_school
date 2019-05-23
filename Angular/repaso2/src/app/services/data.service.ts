@@ -13,16 +13,16 @@ export class DataService {
   getPosts() {
     return this.http.get('https://jsonplaceholder.typicode.com/posts')
     .pipe(
-      tap(posts =>{
+      tap(posts => {
         console.log(posts);
       })
     );
   }
 
-  getPhotos(){
+  getPhotos() {
     return this.http.get('https://jsonplaceholder.typicode.com/photos')
     .pipe(
-      tap(photos =>{
+      tap(photos => {
         console.log(photos);
       })
     );

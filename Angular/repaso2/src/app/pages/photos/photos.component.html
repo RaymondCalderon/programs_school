@@ -1,7 +1,19 @@
-<p>
+<!-- <p>
   photos works!
-</p>
-<!-- <section >
-  <h2>{{ photoRemote.title }}</h2>
-  ng-src="{{ photoRemote.url }}"
-</section> -->
+</p> -->
+<section id="photosID" *ngFor="let post of photosRemote | async">
+    <!-- <h2>{{ post.title }}</h2>
+    <img src="{{ post.url }}" alt="">} -->
+    <div class="col-sm-12">
+    <div class="card mx-auto" style="margin: 10px">
+        <img class="card-img-top" src="{{ post.url }}" alt="Card image cap">
+        <div class="card-header">
+          <h3>{{ post.title }}</h3>
+        </div>
+        <!-- <div class="card-body">
+          <h5 class="card-title">{{ post.title }}</h5>
+        </div> -->
+      </div>
+    </div>
+
+</section>
