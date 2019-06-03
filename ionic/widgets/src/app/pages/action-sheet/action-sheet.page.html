@@ -1,14 +1,6 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-back-button
-        text="regresar"
-        defaultHref="inicio"
-      ></ion-back-button>
-    </ion-buttons>
-
-    <ion-title>Action-Sheet</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content></ion-content>
+<app-header titulo=" Action-Sheet"></app-header>
+<ion-content>
+    <ion-button expand="full" color="success" (click)="presentActionSheet()">
+        Mostrar Action Sheet
+    </ion-button>
+</ion-content>

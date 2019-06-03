@@ -1,0 +1,18 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button
+        text="regresar"
+        defaultHref="inicio"
+        *ngIf="titulo!='Inicio'"
+      ></ion-back-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-avatar>
+        <img src="assets/avatar.jpg" alt="avatar" >
+      </ion-avatar>
+    </ion-buttons>
+
+    <ion-title text-capitalize>{{titulo}}</ion-title>
+  </ion-toolbar>
+</ion-header>
