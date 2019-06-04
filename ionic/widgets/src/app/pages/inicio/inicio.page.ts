@@ -31,7 +31,13 @@ export class InicioPage implements OnInit {
       icono: 'image',
       nombre: 'Cards',
       url: '/card'
+    },
+    {
+      icono: 'planet',
+      nombre: 'Fab',
+      url: '/fab'
     }
+
 
   ];
 

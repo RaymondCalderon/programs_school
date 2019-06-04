@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: 'avatar', loadChildren: './pages/avatar/avatar.module#AvatarPageModule' },
   { path: 'button', loadChildren: './pages/button/button.module#ButtonPageModule' },
   { path: 'card', loadChildren: './pages/card/card.module#CardPageModule' },
+  { path: 'fab', loadChildren: './pages/fab/fab.module#FabPageModule' },
 ];
 
 @NgModule({
