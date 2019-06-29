@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>checkbox</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<ion-content> 
+    <!-- Disabled Checkbox -->
+    <ion-item>
+        <ion-label>Daenerys</ion-label>
+        <ion-checkbox slot="start" disabled="true"></ion-checkbox>
+    </ion-item>
+    <!-- Checked Checkbox -->
+    <ion-item>
+        <ion-label>Sonsa</ion-label>
+        <ion-checkbox slot="start" color="danger" checked="true"></ion-checkbox>
+    </ion-item>
+    <!-- Checkbox Colors -->
+    <ion-item>
+        <ion-label>Jon</ion-label>
+        <ion-checkbox slot="start" color="dark"></ion-checkbox>
+    </ion-item>
+    <ion-item>
+        <ion-label>Arya</ion-label>
+        <ion-checkbox slot="start" color="secondary"></ion-checkbox>
+    </ion-item>
+    <ion-item>
+        <ion-label>Cersei</ion-label>
+        <ion-checkbox slot="start" color="tertiary" checked="true"></ion-checkbox>
+    </ion-item>
+    
+    
+    <!-- Checkboxes in a List -->
+    <ion-list>
+        <ion-item *ngFor="let entry of form">
+            <ion-label>{{entry.val}}</ion-label>
+            <ion-checkbox slot="start" [(ngModel)]="entry.isChecked"></ion-checkbox>
+        </ion-item>
+    </ion-list>
+</ion-content>

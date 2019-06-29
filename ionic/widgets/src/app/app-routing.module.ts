@@ -10,6 +10,10 @@ const routes: Routes = [
   { path: 'button', loadChildren: './pages/button/button.module#ButtonPageModule' },
   { path: 'card', loadChildren: './pages/card/card.module#CardPageModule' },
   { path: 'fab', loadChildren: './pages/fab/fab.module#FabPageModule' },
+  { path: 'checkbox', loadChildren: './pages/checkbox/checkbox.module#CheckboxPageModule' },
+  { path: 'grid', loadChildren: './pages/grid/grid.module#GridPageModule' },
+  { path: 'scroll', loadChildren: './pages/scroll/scroll.module#ScrollPageModule' },
+  { path: 'input', loadChildren: './pages/input/input.module#InputPageModule' },
 ];
 
 @NgModule({
